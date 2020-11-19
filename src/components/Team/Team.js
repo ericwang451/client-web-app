@@ -139,6 +139,20 @@ const teamMembers = [
     link_type: "LinkedIn",
     link_url: "https://www.linkedin.com/in/jacob-munene-4561a4153/",
   },
+  
+   {
+    first_name: "Eric",
+    last_name: "Wang",
+    position: "Marketing",
+    username: null,
+    img_url: "https://media-exp1.licdn.com/dms/image/C5603AQEzj6xm38cJaw/profile-displayphoto-shrink_400_400/0?e=1611187200&v=beta&t=Go5FY4YWhMpmbapZu-54RsBn_h-r8UAc3-NjSAXkIUw",
+    description_1:
+      "Eric is currently studying Computer Science at Western University.",
+    description_2:
+      "He enjoys playing chess and poker in his free time.",
+    link_type: "LinkedIn",
+    link_url: "https://www.linkedin.com/in/eric-wang-1b0b70193/",
+  },
 ];
 
 function TeamMemberCard({ teamMember, showLinkedin = true }) {
