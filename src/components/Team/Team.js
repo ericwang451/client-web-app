@@ -153,6 +153,35 @@ const teamMembers = [
     link_type: "LinkedIn",
     link_url: "https://www.linkedin.com/in/eric-wang-1b0b70193/",
   },
+  
+  {
+    first_name: "Linda",
+    last_name: "Zhang",
+    position: "Marketing",
+    username: null,
+    img_url: "https://media-exp1.licdn.com/dms/image/C4E03AQFYTWrwzzaY1Q/profile-displayphoto-shrink_400_400/0?e=1612396800&v=beta&t=42fZrRZskKRtJ882j6XC8diwoIB4GVJYRCFZ7awIdgM",
+    description_1:
+      "Linda is currently studying BMOS at Western University.",
+    description_2:
+      "She likes to get involved in extra-curricular activities during her free time",
+    link_type: "LinkedIn",
+    link_url: "https://www.linkedin.com/in/linda-zhang-21a2b9179/",
+  },
+  
+  {
+    first_name: "Reesa",
+    last_name: "Dayani",
+    position: "Marketing",
+    username: null,
+    img_url: "https://media-exp1.licdn.com/dms/image/C4D03AQED8UjIhTLDIg/profile-displayphoto-shrink_400_400/0?e=1612396800&v=beta&t=IBfuxk2wP_bm_6aBTxx_5prnl1KZ3X-dXacZY4YMQ_A",
+    description_1:
+      "Reesa is currently studying Computer Science at Western University.",
+    description_2:
+      "She likes to get involved in extra-curricular activities during her free time",
+    link_type: "LinkedIn",
+    link_url: "https://www.linkedin.com/in/reesa-dayani-ab7697172/",
+  },
+  
 ];
 
 function TeamMemberCard({ teamMember, showLinkedin = true }) {
